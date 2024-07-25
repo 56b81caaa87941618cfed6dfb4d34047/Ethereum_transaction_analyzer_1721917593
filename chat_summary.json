@@ -36,5 +36,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer the navbar to be fixed at the top or to scroll away with the page?\", \"option1\": \"Fixed\", \"option2\": \"Scrollable\"}, {\"question 2\": \"Should the navbar style align with a specific theme or color scheme of the website?\", \"option1\": \"Yes, it should match the existing theme.\", \"option2\": \"No, I'm open to suggestions for the navbar's design.\"}], \"input_token_count\": 265, \"output_token_count\": 102, \"time_taken\": \"0:00:05.063746\"}",
         "timestamp": "25072024150111",
         "message_id": "guest25072024150105"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a dropdown menu under 'About' for additional information like 'FAQ' and 'Support'\", \"checked\": true}, {\"feature\": \"Implement a search bar in the navbar for quick transaction lookups\", \"checked\": false}, {\"feature\": \"Incorporate a 'Recent Transactions' page accessible from the navbar\", \"checked\": true}, {\"feature\": \"Include a 'Settings' link in the navbar for app preferences and configurations\", \"checked\": false}, {\"feature\": \"Add a user profile icon in the navbar for account management and sign-out options\", \"checked\": true}, {\"feature\": \"Embed a dark/light mode toggle within the navbar for theme adjustments\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 145, \"time_taken\": \"0:00:09.299965\"}",
+        "timestamp": "25072024150115",
+        "message_id": "guest25072024150105"
     }
 ]
