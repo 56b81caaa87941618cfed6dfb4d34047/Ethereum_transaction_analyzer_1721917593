@@ -18,5 +18,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button positioned within the app?\", \"option1\": \"On the main screen, prominently displayed.\", \"option2\": \"In the settings menu, as a part of other options.\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message with 'Hello World'.\", \"option2\": \"Navigate to a new page with detailed information.\"}], \"input_token_count\": 260, \"output_token_count\": 109, \"time_taken\": \"0:00:04.633676\"}",
         "timestamp": "25072024145735",
         "message_id": "guest25072024145729"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time Ethereum transaction tracker\", \"checked\": true}, {\"feature\": \"Interactive Ethereum price chart\", \"checked\": false}, {\"feature\": \"User account management\", \"checked\": true}, {\"feature\": \"Search and filter transaction history\", \"checked\": false}, {\"feature\": \"Notifications for unusual transactions\", \"checked\": true}, {\"feature\": \"Dark mode for user interface\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 87, \"time_taken\": \"0:00:05.709588\"}",
+        "timestamp": "25072024145736",
+        "message_id": "guest25072024145729"
     }
 ]
