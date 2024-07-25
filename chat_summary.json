@@ -1,5 +1,23 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific vaporwave image in mind, or would you like us to source or create one for you?\", \"option1\": \"I have a specific image I will provide.\", \"option2\": \"Please source or create one for me.\"}, {\"question 2\": \"How should the background image adjust to different screen sizes?\", \"option1\": \"It should stretch to fill the screen without losing aspect ratio.\", \"option2\": \"It should remain centered and cover the available space without stretching.\"}], \"input_token_count\": 262, \"output_token_count\": 116, \"time_taken\": \"0:00:04.602340\"}",
+        "message_id": "guest25072024150700",
+        "timestamp": "25072024150706",
+        "component_file_name": "simple_hero_component_1721917595",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a background image of a vaporwave background",
+        "message_id": "guest25072024150700",
+        "timestamp": "25072024150700",
+        "component_file_name": "simple_hero_component_1721917595",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive dashboard to monitor real-time Ethereum transaction data\", \"checked\": true}, {\"feature\": \"Advanced search functionality to filter transactions by date, amount, and sender/receiver address\", \"checked\": true}, {\"feature\": \"User authentication system to allow personalized settings and saved searches\", \"checked\": false}, {\"feature\": \"Detailed Ethereum transaction history view for in-depth analysis\", \"checked\": false}, {\"feature\": \"Notification system for high-value transactions or unusual activity\", \"checked\": true}, {\"feature\": \"FAQ section for new users to understand Ethereum transactions and app usability\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 126, \"time_taken\": \"0:00:06.480441\"}",
         "message_id": "guest25072024150334",
@@ -72,27 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button positioned within the app?\", \"option1\": \"On the main screen, prominently displayed.\", \"option2\": \"In the settings menu, as a part of other options.\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message with 'Hello World'.\", \"option2\": \"Navigate to a new page with detailed information.\"}], \"input_token_count\": 260, \"output_token_count\": 109, \"time_taken\": \"0:00:04.633676\"}",
-        "message_id": "guest25072024145729",
-        "timestamp": "25072024145735",
-        "component_file_name": "simple_footer_component_1721917595",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "message_id": "guest25072024145729",
-        "timestamp": "25072024145729",
-        "component_file_name": "simple_footer_component_1721917595",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "25072024150343",
-        "message_id": "guest25072024150334"
+        "content": "The user requested the addition of a \"Hello World\" button to an app, leading the AI assistant to seek more details about the project. Subsequently, two key decisions regarding the button's implementation were presented for the user's input. Firstly, the placement of the \"Hello World\" button was questioned, giving the user options between having it prominently displayed on the main screen or tucked away within the settings menu amongst other options. Secondly, the functionality of the button upon being pressed was discussed, with the options being to either display a simple pop-up message saying \"Hello World\" or navigate the user to a new page containing detailed information.",
+        "timestamp": "25072024150706",
+        "message_id": "guest25072024150700"
     }
 ]
