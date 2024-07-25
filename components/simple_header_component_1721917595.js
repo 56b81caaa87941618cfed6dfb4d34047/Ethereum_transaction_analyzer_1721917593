@@ -30,6 +30,12 @@ Vue.component("simple_header_component_1721917595", {
                     </ul>
                 </div>
             </div>
+            <div class="flex-1 mt-4 lg:mt-0">
+                <button id="hello-world-btn" class="px-4 py-2 text-white bg-purple-700 rounded hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
+                    Hello World
+                </button>
+            </div>
+        </nav>
         </nav>
     </header>`,
     data() {
@@ -38,4 +44,12 @@ Vue.component("simple_header_component_1721917595", {
             tab: null,
         };
     },
+    methods: {
+        // Start of helloWorld method
+        helloWorld() {
+            alert('Hello World!');
+        }
+        // End of helloWorld method
+    },
+});
 });
