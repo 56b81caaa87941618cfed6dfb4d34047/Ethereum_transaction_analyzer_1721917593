@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest25072024150832",
+        "timestamp": "25072024150832",
+        "component_file_name": "simple_header_component_1721917595",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific vaporwave image in mind, or would you like us to source or create one for you?\", \"option1\": \"I have a specific image I will provide.\", \"option2\": \"Please source or create one for me.\"}, {\"question 2\": \"How should the background image adjust to different screen sizes?\", \"option1\": \"It should stretch to fill the screen without losing aspect ratio.\", \"option2\": \"It should remain centered and cover the available space without stretching.\"}], \"input_token_count\": 262, \"output_token_count\": 116, \"time_taken\": \"0:00:04.602340\"}",
         "message_id": "guest25072024150700",
