@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time Ethereum transaction tracker\", \"checked\": true}, {\"feature\": \"Interactive Ethereum price chart\", \"checked\": false}, {\"feature\": \"User account management\", \"checked\": true}, {\"feature\": \"Search and filter transaction history\", \"checked\": false}, {\"feature\": \"Notifications for unusual transactions\", \"checked\": true}, {\"feature\": \"Dark mode for user interface\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 87, \"time_taken\": \"0:00:05.709588\"}",
         "timestamp": "25072024145736",
         "message_id": "guest25072024145729"
+    },
+    {
+        "role": "user",
+        "content": "add a navbar component with navlinks home, about and contact",
+        "timestamp": "25072024150105",
+        "message_id": "guest25072024150105"
     }
 ]
