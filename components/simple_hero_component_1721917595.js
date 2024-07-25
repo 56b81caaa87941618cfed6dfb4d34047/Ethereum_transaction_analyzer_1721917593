@@ -4,7 +4,7 @@
 */
 Vue.component("simple_hero_component_1721917595", {
     template: `
-        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
+        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1 bg-cover bg-center" style="background-image: url('https://example.com/vaporwave-background.jpg');">
             <div class="flex">
                 <div class="w-64 h-screen bg-gray-100 dark:bg-gray-800 p-5 shadow-lg">
                     <nav>
