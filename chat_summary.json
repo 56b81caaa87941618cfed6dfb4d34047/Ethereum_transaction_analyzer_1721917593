@@ -30,5 +30,11 @@
         "content": "add a navbar component with navlinks home, about and contact",
         "timestamp": "25072024150105",
         "message_id": "guest25072024150105"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer the navbar to be fixed at the top or to scroll away with the page?\", \"option1\": \"Fixed\", \"option2\": \"Scrollable\"}, {\"question 2\": \"Should the navbar style align with a specific theme or color scheme of the website?\", \"option1\": \"Yes, it should match the existing theme.\", \"option2\": \"No, I'm open to suggestions for the navbar's design.\"}], \"input_token_count\": 265, \"output_token_count\": 102, \"time_taken\": \"0:00:05.063746\"}",
+        "timestamp": "25072024150111",
+        "message_id": "guest25072024150105"
     }
 ]
