@@ -5,26 +5,32 @@
 Vue.component("simple_hero_component_1721917595", {
     template: `
         <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
-            <nav class="bg-white border-b border-gray-200 dark:bg-gray-900">
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="#" class="flex items-center">
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-purple-700 dark:text-white">Logo</span>
-                    </a>
-                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-white md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900">
+            <div class="flex">
+                <div class="w-64 h-screen bg-gray-100 dark:bg-gray-800 p-5">
+                    <nav>
+                        <ul class="space-y-2">
                             <li>
-                                <a href="#" class="block py-2 pl-3 pr-4 text-purple-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">Home</a>
+                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700">
+                                    <i class='bx bx-home-alt mr-3'></i>
+                                    <span>Home</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700">
+                                    <i class='bx bx-info-circle mr-3'></i>
+                                    <span>About</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700">
+                                    <i class='bx bx-envelope mr-3'></i>
+                                    <span>Contact</span>
+                                </a>
                             </li>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
-            </nav>
+                <div class="flex-1">
             <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
                 <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
                     
@@ -51,7 +57,8 @@ Vue.component("simple_hero_component_1721917595", {
                     <img id="hero-image" src="./images/hero.png" alt="hero image">
                 </div>
             </div>
-        </section>            
+        </div>
+    </section>
     `,
     data() {
         return {
