@@ -6,24 +6,24 @@ Vue.component("simple_hero_component_1721917595", {
     template: `
         <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
             <div class="flex">
-                <div class="w-64 h-screen bg-gray-100 dark:bg-gray-800 p-5">
+                <div class="w-64 h-screen bg-gray-100 dark:bg-gray-800 p-5 shadow-lg">
                     <nav>
                         <ul class="space-y-2">
                             <li>
-                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700">
-                                    <i class='bx bx-home-alt mr-3'></i>
+                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-purple-100 dark:hover:bg-purple-700">
+                                    <i class='bx bx-home-alt mr-3 text-purple-600'></i>
                                     <span>Home</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700">
-                                    <i class='bx bx-info-circle mr-3'></i>
+                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-purple-100 dark:hover:bg-purple-700">
+                                    <i class='bx bx-info-circle mr-3 text-purple-600'></i>
                                     <span>About</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700">
-                                    <i class='bx bx-envelope mr-3'></i>
+                                <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-purple-100 dark:hover:bg-purple-700">
+                                    <i class='bx bx-envelope mr-3 text-purple-600'></i>
                                     <span>Contact</span>
                                 </a>
                             </li>
@@ -31,34 +31,35 @@ Vue.component("simple_hero_component_1721917595", {
                     </nav>
                 </div>
                 <div class="flex-1">
-            <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
-                    
-                    <div id="hero-title-container-text" class="flex">
-                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Unlock Ethereum's Potential</h1>
-                    </div>
+                    <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+                        <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
+                            
+                            <div id="hero-title-container-text" class="flex">
+                                <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-black dark:text-white">Unlock Ethereum's Potential</h1>
+                            </div>
 
-                    <div id="hero-subtitle-container" class="flex">
-                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Cutting-Edge Analytics for Ethereum Transactions</p>
-                    </div>
+                            <div id="hero-subtitle-container" class="flex">
+                                <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Cutting-Edge Analytics for Ethereum Transactions</p>
+                            </div>
 
-                    <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                        <div id="hero-button-1-container" class="flex">
-                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1  items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Start Analyzing</a>
+                            <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                                <div id="hero-button-1-container" class="flex">
+                                    <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-white bg-purple-600 rounded-lg sm:w-auto hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800">Start Analyzing</a>
+                                </div>
+
+                                <div id="hero-button-2-container" class="flex">
+                                    <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-purple-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-purple-700">Learn More</a>
+                                </div>
+                            </div>
+                            
                         </div>
-
-                        <div id="hero-button-2-container" class="flex">
-                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1  items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn More</a>
+                        <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                            <img id="hero-image" src="./images/hero.png" alt="hero image">
                         </div>
                     </div>
-                    
-                </div>
-                <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img id="hero-image" src="./images/hero.png" alt="hero image">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     `,
     data() {
         return {
